@@ -41,9 +41,9 @@ const Footer = () => {
 
                                 <div className="footer-links">
                                     <Link className='footer-link-heading'> <strong>Account Management</strong></Link>
-                                    <Link className="router-link" to='/'>Amazon Account Management</Link>
-                                    <Link className="router-link" to='/'>Flipkart Account Management</Link>
-                                    <Link className="router-link" to='/'>Etsy Account Management</Link>
+                                    <Link className="router-link" to='/anksquare/amazon-account-management'>Amazon Account Management</Link>
+                                    <Link className="router-link" to='/anksquare/flipkart-account-management'>Flipkart Account Management</Link>
+                                    <Link className="router-link" to='/anksquare/etsy-account-management'>Etsy Account Management</Link>
                                 </div>
 
                             </Grid>

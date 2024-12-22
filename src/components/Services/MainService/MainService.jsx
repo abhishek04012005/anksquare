@@ -4,6 +4,8 @@ import EcommerceSpecialist from '../EcommerceSpecialist/EcommerceSpecialist'
 import SocialMedia from '../SocialMedia/SocialMedia'
 import WebDevelopment from '../WebDevelopment/WebDevelopment'
 import AppDevelopment from '../AppDevelopment/AppDevelopment'
+import FlipkartAccountManagement from '../FlipkartAccountManagement/FlipkartAccountManagement'
+import EtsyAccountMangement from '../EtsyAccountMangement/EtsyAccountMangement'
 
 function MainService () {
     return (
@@ -11,6 +13,8 @@ function MainService () {
             <div >
                 <AccountMangement />
                 <EcommerceSpecialist />
+                <FlipkartAccountManagement/>
+                <EtsyAccountMangement/>
                 <SocialMedia />
                 <WebDevelopment />
                 <AppDevelopment />
