@@ -29,7 +29,7 @@ const Footer = () => {
                             >
 
                                 <div className="footer-links">
-                                    <Link className="router-link" to='/'>Home</Link>
+                                    <Link className="router-link" to='/anksquare'>Home</Link>
                                 </div>
 
                             </Grid>
@@ -55,9 +55,9 @@ const Footer = () => {
 
                                 <div className="footer-links">
                                     <Link className='footer-link-heading'> <strong>Services</strong></Link>
-                                    <Link className="router-link" to='/social-media'>Social Media</Link>
-                                    <Link className="router-link" to='/web-development'>Web Development</Link>
-                                    <Link className="router-link" to='/app-development'>App Development</Link>
+                                    <Link className="router-link" to='/anksquare/social-media'>Social Media</Link>
+                                    <Link className="router-link" to='/anksquare/web-development'>Web Development</Link>
+                                    <Link className="router-link" to='/anksquare/app-development'>App Development</Link>
                                 </div>
 
                             </Grid>
