@@ -6,13 +6,14 @@ import SocialMediaSVG from '../../../assets/SVG/SocialMediaSVG/SocialMediaSVG';
 
 
 import FlipkartSVG from '../../../assets/tech/flipkart-logo.svg'
+import AmazonSVG from '../../../assets/tech/amazon-icon.svg'
 
 const SocialMedia = () => {
     const SocialMediaCardData = [
         { id: 1, title: 'Account Manger', imageLogo: FlipkartSVG },
-        { id: 2, title: 'Social Media', imageLogo: FlipkartSVG },
-        { id: 3, title: 'Web Development', imageLogo: FlipkartSVG },
-        { id: 4, title: 'App Development', imageLogo: FlipkartSVG },
+        { id: 2, title: 'Social Media', imageLogo: AmazonSVG },
+        { id: 3, title: 'Web Development', imageLogo: AmazonSVG },
+        { id: 4, title: 'App Development', imageLogo: AmazonSVG },
     ];
     return (
         <>
