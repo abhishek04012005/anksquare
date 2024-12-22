@@ -3,14 +3,14 @@ import Hero from './Hero/Hero'
 import AboutUs from './AboutUs/AboutUs'
 import MainService from './Services/MainService/MainService'
 
-const Main = () => {
+function Main() {
     return (
-        <>
+        <div className="App">
             <Hero />
             <AboutUs />
             <MainService />
-            
-        </>
+
+        </div>
     )
 }
 
