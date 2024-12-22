@@ -10,8 +10,8 @@ import AppDevelopment from './components/Services/AppDevelopment/AppDevelopment'
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />
@@ -21,8 +21,8 @@ function App() {
         </Routes>
         <ContactUs />
         <Footer />
-      </Router>
-    </div >
+      </div >
+    </Router>
   );
 }
 
