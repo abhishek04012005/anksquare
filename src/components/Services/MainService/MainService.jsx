@@ -5,7 +5,7 @@ import SocialMedia from '../SocialMedia/SocialMedia'
 import WebDevelopment from '../WebDevelopment/WebDevelopment'
 import AppDevelopment from '../AppDevelopment/AppDevelopment'
 
-const MainService = () => {
+function MainService () {
     return (
         <>
             <div >
