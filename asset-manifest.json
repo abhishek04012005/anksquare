@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/anksquare/static/css/main.bfb97080.css",
+    "main.js": "/anksquare/static/js/main.756aa875.js",
+    "static/js/453.5e9f60d5.chunk.js": "/anksquare/static/js/453.5e9f60d5.chunk.js",
+    "static/media/logo.svg": "/anksquare/static/media/logo.2ff77b8437b5d99c2f6f09f39b6f76c1.svg",
+    "static/media/flipkart-logo.svg": "/anksquare/static/media/flipkart-logo.a6e902bc45ccd8470346fa2e5bb67535.svg",
+    "static/media/whatsapp.svg": "/anksquare/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
+    "index.html": "/anksquare/index.html",
+    "main.bfb97080.css.map": "/anksquare/static/css/main.bfb97080.css.map",
+    "main.756aa875.js.map": "/anksquare/static/js/main.756aa875.js.map",
+    "453.5e9f60d5.chunk.js.map": "/anksquare/static/js/453.5e9f60d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfb97080.css",
+    "static/js/main.756aa875.js"
+  ]
+}
