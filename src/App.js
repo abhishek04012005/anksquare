@@ -14,10 +14,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/social-media" element={<SocialMedia />} />
-          <Route path="/web-development" element={<WebDevelopment />} />
-          <Route path="/app-development" element={<AppDevelopment />} />
+          <Route path="/anksquare" element={<Main />} />
+          <Route path="/anksquare/social-media" element={<SocialMedia />} />
+          <Route path="/anksquare/web-development" element={<WebDevelopment />} />
+          <Route path="/anksquare/app-development" element={<AppDevelopment />} />
         </Routes>
         <ContactUs />
         <Footer />
