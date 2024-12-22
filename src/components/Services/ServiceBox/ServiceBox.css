@@ -1,0 +1,14 @@
+.service-box {
+    padding-top: 2rem;
+}
+.service-text {
+    background-color: var(--Green);
+    padding: 15px;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+.service-text p {
+    color: white;
+    font-size: 1.3rem;
+}

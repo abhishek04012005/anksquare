@@ -1,0 +1,24 @@
+.hero {
+
+    margin-top: 10rem;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: left;
+}
+
+.hero-heading-text {
+    text-align: left;
+    color: #213E60;
+}
+
+.hero-heading-text {
+    font-size: 3.1rem;
+}
+
+.hero-btn Button {
+    margin-top: 2rem;
+    float: left;
+    font-size: 1.2rem;
+  }

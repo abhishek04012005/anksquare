@@ -1,0 +1,19 @@
+.heading {
+    margin: 3rem 0 3rem 0;
+    /* background-color: #213E60; */
+    padding: 0.09px 0 0.09px 0;
+    /* box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-bottom: 5px solid var(--Green);
+    /* border-top: 3px solid #213E60; */
+    /* border: 3px solid #213E60; */
+    /* border-radius: 10px; */
+
+}
+.heading h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    color: var(--Green);
+    font-size: 2.7rem;
+    margin-bottom: 2px;
+}

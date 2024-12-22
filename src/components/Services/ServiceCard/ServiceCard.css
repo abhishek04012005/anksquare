@@ -1,0 +1,20 @@
+.service-grid-img-svg {
+  border: 3px solid var(--Green);
+  border-radius: 30px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  /* padding-bottom: 2rem; */
+}
+
+.logo-container {
+
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  /* Example aspect ratio */
+}
+
+.grid-img-logo {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid var(--Green);
+}

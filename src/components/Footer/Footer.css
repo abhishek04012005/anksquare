@@ -1,0 +1,37 @@
+.footer {
+    background-color: #206572;
+    margin-top: 2rem;
+    
+}
+
+.footer-links {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: 2rem 0 2rem 0;
+    background-color: #206572;  
+}
+
+
+.footer-links img {
+    float: left;
+    width: 120px;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.footer-social-links a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer-link-heading {
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.router-link {
+    color: #fff;
+    text-decoration: none;
+}

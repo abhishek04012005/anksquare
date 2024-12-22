@@ -1,0 +1,36 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item {
+    /* background-color: yellow; */
+    width: 70%;
+}
+
+@media only screen and (max-width: 1800px) {
+    .container-item {
+        width: 75%;
+    }
+  }
+
+@media only screen and (max-width: 1650px) {
+    .container-item {
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .container-item {
+        width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .container-item {
+        width: 90%;
+    }
+  }
