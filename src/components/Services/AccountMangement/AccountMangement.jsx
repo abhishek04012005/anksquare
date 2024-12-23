@@ -9,6 +9,8 @@ import AccountManagerSVG from '../../../assets/SVG/AccountManagerSVG/AccountMana
 
 // import FlipkartSVG from '../../../assets/tech/FlipkartSVG/FlipkartSVG'
 import FlipkartSVG from '../../../assets/tech/flipkart-logo.svg'
+import AmazonSVG from '../../../assets/tech/amazon-icon.svg'
+import EtsySVG from '../../../assets/tech/etsy-icon.svg'
 
 
 
@@ -17,12 +19,12 @@ const AccountMangement = () => {
     const AccountMangementCardData = [
         { id: 1, title: 'Account Manger', imageLogo: FlipkartSVG},
         { id: 2, title: 'Social Media', imageLogo: FlipkartSVG },
-        { id: 3, title: 'Web Development', imageLogo: FlipkartSVG },
-        { id: 4, title: 'App Development', imageLogo: FlipkartSVG },
+        { id: 3, title: 'Web Development', imageLogo: AmazonSVG },
+        { id: 4, title: 'App Development', imageLogo: AmazonSVG },
         { id: 5, title: 'Account Manger', imageLogo: FlipkartSVG },
-        { id: 6, title: 'Social Media', imageLogo: FlipkartSVG },
+        { id: 6, title: 'Social Media', imageLogo: EtsySVG },
         { id: 7, title: 'Web Development', imageLogo: FlipkartSVG },
-        { id: 8, title: 'App Development', imageLogo: FlipkartSVG },
+        { id: 8, title: 'App Development', imageLogo: EtsySVG },
 
 
     ];

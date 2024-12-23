@@ -1,9 +1,9 @@
 import React from 'react'
 import MainHeading from '../Headings/MainHeading/MainHeading'
 import Container from '../../Container/Container'
-import HeroSVG from '../../assets/SVG/HeroSVG/HeroSVG'
 import Grid from '@mui/material/Grid2'
 import './AboutUs.css'
+import AboutSVG from '../../assets/SVG/AboutSVG/AboutSVG'
 
 const AboutUs = () => {
     return (
@@ -19,7 +19,7 @@ const AboutUs = () => {
                             size={{ xs: 12, md: 5 }}>
 
                             <div className="grid-img-svg">
-                                <HeroSVG />
+                               <AboutSVG/>
                             </div>
                         </Grid>
                         <Grid
