@@ -68,7 +68,12 @@
     list-style: none;
     cursor: pointer;
     color: var(--Blue);
+   
 }
+
+
+
+
 
 
 .nav-link {
@@ -135,7 +140,40 @@
     height: 40px;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 1170px) {
+    .navbar-item{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1110px) {
+    .navbar-item{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1050px) {
+
+
+    .navbar-top-element {
+        gap: 10px;
+    }
+
+    .nav-item-desktop ul {
+        gap: 50px;
+    }
+}
+
+
+@media (max-width: 935px) {
+   
+
+    .nav-item-desktop ul {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 900px) {
 
     /* Adjust Navbar for Mobile */
     .navbar-item {

@@ -10,6 +10,7 @@ import WebDevelopmentSVG from '../../assets/SVG/WebDevelopmentSVG/WebDevelopment
 import AppDevelopmentSVG from '../../assets/SVG/AppDevelopmentSVG/AppDevelopmentSVG';
 import AccountManagerSVG from '../../assets/SVG/AccountManagerSVG/AccountManagerSVG';
 
+
 const Hero = () => {
 
 
@@ -35,13 +36,15 @@ const Hero = () => {
                         <Grid size={{ xs: 12, md: 6 }}>
                             <div className="hero-container">
                                 <div className="hero-text">
-                                    <h1 className='hero-heading-text'>
 
-                                        Empowering Your Digital Growth
-                                        to Sell More with Seamless
-                                        Digital Experiences
+                                
+                                        <h1 className='hero-heading-text'>
 
-                                    </h1>
+                                            Empowering Your Digital Growth
+                                            to Sell More with Seamless
+                                            Digital Experiences
+
+                                        </h1>
 
 
                                     <div className="btn hero-btn">
