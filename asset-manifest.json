@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anksquare/static/css/main.bfb97080.css",
-    "main.js": "/anksquare/static/js/main.2bc41bb1.js",
+    "main.css": "/anksquare/static/css/main.0d2612d3.css",
+    "main.js": "/anksquare/static/js/main.9f030e6e.js",
     "static/js/453.5e9f60d5.chunk.js": "/anksquare/static/js/453.5e9f60d5.chunk.js",
     "static/media/logo.svg": "/anksquare/static/media/logo.2ff77b8437b5d99c2f6f09f39b6f76c1.svg",
     "static/media/flipkart-logo.svg": "/anksquare/static/media/flipkart-logo.a6e902bc45ccd8470346fa2e5bb67535.svg",
@@ -9,12 +9,12 @@
     "static/media/whatsapp.svg": "/anksquare/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
     "static/media/etsy-icon.svg": "/anksquare/static/media/etsy-icon.afb5431662d9d421db64bbc427b1d771.svg",
     "index.html": "/anksquare/index.html",
-    "main.bfb97080.css.map": "/anksquare/static/css/main.bfb97080.css.map",
-    "main.2bc41bb1.js.map": "/anksquare/static/js/main.2bc41bb1.js.map",
+    "main.0d2612d3.css.map": "/anksquare/static/css/main.0d2612d3.css.map",
+    "main.9f030e6e.js.map": "/anksquare/static/js/main.9f030e6e.js.map",
     "453.5e9f60d5.chunk.js.map": "/anksquare/static/js/453.5e9f60d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfb97080.css",
-    "static/js/main.2bc41bb1.js"
+    "static/css/main.0d2612d3.css",
+    "static/js/main.9f030e6e.js"
   ]
 }
