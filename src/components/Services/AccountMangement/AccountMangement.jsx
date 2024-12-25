@@ -8,10 +8,11 @@ import AccountManagerSVG from '../../../assets/SVG/AccountManagerSVG/AccountMana
 import FlipkartSVG from '../../../assets/tech/flipkart-logo.svg'
 import AmazonSVG from '../../../assets/tech/amazon-icon.svg'
 import MeeshoIcon from '../../../assets/tech/meesho-logo.svg'
-import EtsySVG from '../../../assets/tech/etsy-icon.svg'
 import JioMartSVG from '../../../assets/tech/jiomart-icon.svg'
 import AjioSVG from '../../../assets/tech/ajio-logo.svg'
 import MyntraSVG from '../../../assets/tech/myntra-logo.svg'
+import BlinkItSVG from '../../../assets/tech/blinkitads-logo.svg'
+import NykaaSVG from '../../../assets/tech/nykaa-logo.svg'
 
 
 
@@ -25,8 +26,8 @@ const AccountMangement = () => {
         { id: 4, title: 'Jiomart', imageLogo: JioMartSVG },
         { id: 5, title: 'Ajio', imageLogo: AjioSVG },
         { id: 6, title: 'Myntra', imageLogo: MyntraSVG },
-        { id: 7, title: 'Nykaa', imageLogo: FlipkartSVG },
-        { id: 8, title: 'Blinkit', imageLogo: EtsySVG },
+        { id: 7, title: 'Nykaa', imageLogo: NykaaSVG },
+        { id: 8, title: 'Blinkit', imageLogo: BlinkItSVG },
 
 
     ];
