@@ -5,25 +5,28 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 import SocialMediaSVG from '../../../assets/SVG/SocialMediaSVG/SocialMediaSVG';
 
 
-import FlipkartSVG from '../../../assets/tech/flipkart-logo.svg'
-import AmazonSVG from '../../../assets/tech/amazon-icon.svg'
+
+
+import GoogleAdsSVG from '../../../assets/tech/google-ads.svg'
+import InstagramAdsSVG from '../../../assets/tech/instagramads-logo.svg'
+import FacebookAdsSVG from '../../../assets/tech/facebookads-logo.svg'
+import YoutubeAdsSVG from '../../../assets/tech/youtubeads-logo.svg'
 
 const SocialMedia = () => {
     const SocialMediaCardData = [
-        { id: 1, title: 'Account Manger', imageLogo: FlipkartSVG },
-        { id: 2, title: 'Social Media', imageLogo: AmazonSVG },
-        { id: 3, title: 'Web Development', imageLogo: AmazonSVG },
-        { id: 4, title: 'App Development', imageLogo: AmazonSVG },
+        { id: 1, title: 'Google Ads', imageLogo: GoogleAdsSVG },
+        { id: 2, title: 'Instagram Ads', imageLogo: InstagramAdsSVG },
+        { id: 3, title: 'Facebook Ads', imageLogo: FacebookAdsSVG },
+        { id: 4, title: 'Youtube Ads', imageLogo: YoutubeAdsSVG },
     ];
     return (
         <>
             <ServiceBox
-                serviceTitle="social media"
-                photo={<SocialMediaSVG />}
-                para="I embrace new technologies to ensure I remain at the forefront of the industry. I’m adept at problem-solving and thrive in fast-paced environments, ensuring timely and efficient project completion. My collaborative nature allows me to work seamlessly with teams, bringing diverse ideas together to create exceptional outcomes. My experience extends to UX/UI design, ensuring that every project is not only visually appealing but also highly functional and user-friendly. My dedication to continuous learning.
-
-Additionally, I specialize in creating dynamic and captivating 3D animations for both brand and product promotion, utilizing Blender to develop immersive visual experiences that highlight the unique features and values of each project. I am currently available for freelance work and am eager to be hired for exciting projects that challenge my skills and ignite my passion."
-                reverse="true"
+                serviceTitle="digital marketing"
+                photo={<SocialMediaSVG />} //Change to digital marketing ads
+                para1="Digital marketing, especially through advertisements, is pivotal in shaping the success of your business online. Our comprehensive digital marketing services are designed to place your brand in front of your target audience effectively. By leveraging various platforms such as Google Ads, social media, and display networks, we ensure your ads reach the right people at the right time. Our team crafts compelling ad copies that resonate with your audience, driving clicks and conversions."
+                para2="We perform in-depth keyword research to identify the terms your potential customers are searching for, allowing us to tailor your ads for maximum visibility and relevance. Additionally, our services include designing eye-catching visuals and engaging content that capture attention and encourage interaction. We continuously monitor and optimize your ad campaigns, adjusting bids, keywords, and targeting to improve performance and ROI."
+                // reverse="true"
             // para={SocialMediaCardData[0].title}
             />
 

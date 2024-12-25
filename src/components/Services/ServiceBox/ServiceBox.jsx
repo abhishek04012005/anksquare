@@ -6,7 +6,7 @@ import MainHeading from '../../Headings/MainHeading/MainHeading';
 import AnimationFromBottom from '../../../Animation/AnimationFromBottom/AnimationFromBottom';
 
 
-const ServiceBox = ({ photo, para, serviceTitle, reverse = false }) => {
+const ServiceBox = ({ photo, para1, para2, serviceTitle, reverse = false }) => {
     return (
         <div className="service-box">
             <Container>
@@ -34,7 +34,8 @@ const ServiceBox = ({ photo, para, serviceTitle, reverse = false }) => {
                             >
 
                                 <div className="service-text">
-                                    <p>{para}</p>
+                                    <p>{para1}</p>
+                                    <p>{para2}</p>
                                 </div>
 
                             </Grid>

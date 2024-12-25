@@ -55,8 +55,8 @@ const Footer = () => {
 
                                 <div className="footer-links">
                                     <Link className='footer-link-heading'> <strong>Services</strong></Link>
-                                    <Link className="router-link" to='/anksquare/social-media'>Social Media</Link>
-                                    <Link className="router-link" to='/anksquare/web-development'>Web Development</Link>
+                                    <Link className="router-link" to='/anksquare/social-media'>Digital Marketing</Link>
+                                    <Link className="router-link" to='/anksquare/web-development'>Website Development</Link>
                                     <Link className="router-link" to='/anksquare/app-development'>App Development</Link>
                                 </div>
 
@@ -69,7 +69,9 @@ const Footer = () => {
 
                                 <div className="footer-links">
                                     <a href="/"><img src={Logo} alt="" /></a>
-                                    <Link className="router-link" to='/'>CIN:- U72900MH2021PTC363593</Link>
+                                    {/* <Link className="router-link" to='/'>CIN:- U72900MH2021PTC363593</Link> */}
+                                    <p style={{ textAlign: 'center', color: 'white', marginTop: -10}}> <a href="https://www.anksquare.com" target="_blank" rel="noreferrer" style={{ color: 'white' }}>www.AnkSquare.com</a>  </p>
+
                                 </div>
                             </Grid>
 
@@ -126,11 +128,11 @@ const Footer = () => {
                         </div>
 
 
-                        <p style={{ textAlign: 'center', color: 'white' }}>Copyright © {new Date().getFullYear()} <a href="/" style={{ color: 'white' }}>Ank Square Pvt. Ltd.</a>  </p>
+                        <p style={{ textAlign: 'center', color: 'white' }}>Copyright © {new Date().getFullYear()} Ank Square Pvt. Ltd. </p>
                         <p style={{ textAlign: 'center', color: 'white' }}>Powered by <a href="https://www.abhishekchoudhary.co.in" target="_blank" rel="noreferrer" style={{ color: 'white' }}>www.AbhishekChoudhary.co.in</a>  </p>
                     </div>
-                </Container>
-            </div>
+                </Container >
+            </div >
         </>
     )
 }

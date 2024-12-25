@@ -8,6 +8,12 @@
     justify-content: left;
 }
 
+.hero-text h2{
+    text-align: left;
+    color: var(--Green);
+    font-size: 2rem;
+}
+
 .hero-heading-text {
     text-align: left;
     color: #213E60;

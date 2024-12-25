@@ -6,15 +6,17 @@
   /* padding-bottom: 2rem; */
 }
 
-.logo-container {
-
-  width: 100%;
-  aspect-ratio: 3 / 1;
-  /* Example aspect ratio */
-}
-
 .grid-img-logo {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-bottom: 3px solid var(--Green);
+  padding: 2rem;
 }
+
+.logo-container {
+
+  width: 100%;
+  aspect-ratio: 4 / 2;
+  /* Example aspect ratio */
+}
+

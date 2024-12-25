@@ -17,9 +17,9 @@ const Hero = () => {
     const handleClickCall = () => { window.open('tel:+919939337638', '_blank'); };
 
     const HeroCardData = [
-        { id: 1, title: 'Account Manger', svg: <AccountManagerSVG /> },
+        { id: 1, title: 'Account Management', svg: <AccountManagerSVG /> },
         { id: 2, title: 'Social Media', svg: <SocialMediaSVG /> },
-        { id: 3, title: 'Web Development', svg: <WebDevelopmentSVG /> },
+        { id: 3, title: 'Website Development', svg: <WebDevelopmentSVG /> },
         { id: 4, title: 'App Development', svg: <AppDevelopmentSVG /> },
 
     ];
@@ -40,11 +40,14 @@ const Hero = () => {
                                 
                                         <h1 className='hero-heading-text'>
 
-                                            Empowering Your Digital Growth
-                                            to Sell More with Seamless
-                                            Digital Experiences
+                                            Empowering Your Digital Growth... 
+                                            
+                                            
 
                                         </h1>
+
+                                        <h2>Reach More with Seamless
+                                            Digital Experience.</h2>
 
 
                                     <div className="btn hero-btn">
@@ -54,7 +57,7 @@ const Hero = () => {
                                             onClick={handleClickCall}
 
                                         >
-                                            Arrange a call with our expert
+                                           call to our expert
                                         </Button>
 
                                     </div>

@@ -96,7 +96,7 @@ const Navbar = () => {
 
                     <div className="navbar-button-desktop btn">
                         <Button variant="contained" onClick={handleClickWhatsapp}>
-                            CONTACT
+                            CONTACT US
                         </Button>
                     </div>
 
@@ -132,7 +132,7 @@ const Navbar = () => {
                                 <li>
                                     <div className="navbar-button-mobile">
                                         <Button variant="contained" onClick={handleClickWhatsapp}>
-                                            CONTACT
+                                        CONTACT US
                                         </Button>
                                     </div>
                                 </li>

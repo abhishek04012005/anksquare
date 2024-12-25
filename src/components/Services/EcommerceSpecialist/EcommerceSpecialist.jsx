@@ -8,9 +8,10 @@ const EcommerceSpecialist = () => {
             <ServiceBox
                 serviceTitle="AMAZON TRAINED E-COMMERCE SPECIALIST"
                 photo={<AmazonEcommerceSVG/>}
-                para="I embrace new technologies to ensure I remain at the forefront of the industry. I’m adept at problem-solving and thrive in fast-paced environments, ensuring timely and efficient project completion. My collaborative nature allows me to work seamlessly with teams, bringing diverse ideas together to create exceptional outcomes. My experience extends to UX/UI design, ensuring that every project is not only visually appealing but also highly functional and user-friendly. My dedication to continuous learning.
-
-Additionally, I specialize in creating dynamic and captivating 3D animations for both brand and product promotion, utilizing Blender to develop immersive visual experiences that highlight the unique features and values of each project. I am currently available for freelance work and am eager to be hired for exciting projects that challenge my skills and ignite my passion."
+                para1="We are a team of Amazon-trained eCommerce specialists, dedicated to helping businesses thrive on one of the world's largest online marketplaces. With extensive expertise in Amazon’s complex systems, we provide comprehensive services that cover every aspect of selling on Amazon, from product listings to advertising strategies.
+                Our mission is to empower sellers to reach their full potential by enhancing product visibility, improving customer experiences, and increasing sales through personalized strategies. Whether you are just beginning your journey or aiming to elevate your Amazon store, we provide the essential knowledge and tools for your success.
+                "
+                para2="Our services are designed to help you navigate the complexities of Amazon's marketplace. We understand the challenges sellers face and are here to provide support and guidance every step of the way. From optimizing your listings to managing your advertising campaigns, we offer solutions tailored to your needs."
             />
         </div>
         </>

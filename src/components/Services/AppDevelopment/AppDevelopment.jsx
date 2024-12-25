@@ -9,19 +9,18 @@ import FlipkartSVG from '../../../assets/tech/flipkart-logo.svg'
 
 const AppDevelopment = () => {
     const AppDevelopmentCardData = [
-        { id: 1, title: 'Account Manger', imageLogo: FlipkartSVG },
-        { id: 2, title: 'Social Media', imageLogo: FlipkartSVG },
-        { id: 3, title: 'Web Development', imageLogo: FlipkartSVG },
-        { id: 4, title: 'App Development', imageLogo: FlipkartSVG },
+        { id: 1, title: 'Android App Development', imageLogo: FlipkartSVG },
+        { id: 2, title: 'IOS App Development', imageLogo: FlipkartSVG },
+        { id: 3, title: 'Native App Development', imageLogo: FlipkartSVG },
+        { id: 4, title: 'Hybrid App Development', imageLogo: FlipkartSVG },
     ];
     return (
         <>
             <ServiceBox
                 serviceTitle="app development"
                 photo={<AppDevelopmentSVG />}
-                para="I embrace new technologies to ensure I remain at the forefront of the industry. I’m adept at problem-solving and thrive in fast-paced environments, ensuring timely and efficient project completion. My collaborative nature allows me to work seamlessly with teams, bringing diverse ideas together to create exceptional outcomes. My experience extends to UX/UI design, ensuring that every project is not only visually appealing but also highly functional and user-friendly. My dedication to continuous learning.
-
-Additionally, I specialize in creating dynamic and captivating 3D animations for both brand and product promotion, utilizing Blender to develop immersive visual experiences that highlight the unique features and values of each project. I am currently available for freelance work and am eager to be hired for exciting projects that challenge my skills and ignite my passion."
+                para1="App development is essential for businesses looking to engage customers and streamline operations through custom solutions. Our app development services are tailored to create innovative and user-friendly applications that meet your specific needs. We start with a thorough understanding of your business objectives and target audience, ensuring the app’s design and functionality align perfectly with your goals."
+                para2="We specialize in developing cross-platform applications that provide a consistent user experience across both iOS and Android devices. This ensures that your app reaches a broader audience and delivers a seamless experience regardless of the device used. Our focus on user-centric design means we prioritize intuitive navigation, attractive interfaces, and fast performance to enhance user engagement and satisfaction. Security is a key aspect of our development process. We implement robust security measures to protect your app and user data from potential threats."
                 reverse="true"
             />
 
