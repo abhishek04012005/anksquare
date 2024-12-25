@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anksquare/static/css/main.f11b1b3e.css",
-    "main.js": "/anksquare/static/js/main.9f936ed1.js",
+    "main.js": "/anksquare/static/js/main.b6957260.js",
     "static/js/453.5e9f60d5.chunk.js": "/anksquare/static/js/453.5e9f60d5.chunk.js",
     "static/media/logo.svg": "/anksquare/static/media/logo.2ff77b8437b5d99c2f6f09f39b6f76c1.svg",
     "static/media/flipkart-logo.svg": "/anksquare/static/media/flipkart-logo.a6e902bc45ccd8470346fa2e5bb67535.svg",
@@ -13,16 +13,17 @@
     "static/media/google-ads.svg": "/anksquare/static/media/google-ads.268146d5ab7db3e8e48a93b3e3e1ed35.svg",
     "static/media/myntra-logo.svg": "/anksquare/static/media/myntra-logo.c9827c0834635951c999851030570710.svg",
     "static/media/jiomart-icon.svg": "/anksquare/static/media/jiomart-icon.35d28ed198d420857af770137b0aa398.svg",
+    "static/media/nykaa-logo.svg": "/anksquare/static/media/nykaa-logo.9a909ac2146cd8f221aa8f663f57dd6b.svg",
+    "static/media/blinkitads-logo.svg": "/anksquare/static/media/blinkitads-logo.78bdae07f2cee3e3f45bcdf122978a1d.svg",
     "static/media/whatsapp.svg": "/anksquare/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
     "static/media/ajio-logo.svg": "/anksquare/static/media/ajio-logo.7ef43ce2cbe23377ee482a5643d2ce16.svg",
-    "static/media/etsy-icon.svg": "/anksquare/static/media/etsy-icon.afb5431662d9d421db64bbc427b1d771.svg",
     "index.html": "/anksquare/index.html",
     "main.f11b1b3e.css.map": "/anksquare/static/css/main.f11b1b3e.css.map",
-    "main.9f936ed1.js.map": "/anksquare/static/js/main.9f936ed1.js.map",
+    "main.b6957260.js.map": "/anksquare/static/js/main.b6957260.js.map",
     "453.5e9f60d5.chunk.js.map": "/anksquare/static/js/453.5e9f60d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f11b1b3e.css",
-    "static/js/main.9f936ed1.js"
+    "static/js/main.b6957260.js"
   ]
 }
