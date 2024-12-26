@@ -13,57 +13,68 @@ import './Testimonials.css'; // Import the external CSS
 import Client1 from '../../assets/testimonialImage/client1.png'
 import Client2 from '../../assets/testimonialImage/client2.png'
 import Client3 from '../../assets/testimonialImage/client3.png'
-import Client4 from '../../assets/testimonialImage/client4.png'
+import Client4 from '../../assets/testimonialImage/client4.jpg'
 import Client5 from '../../assets/testimonialImage/client5.png'
 import Client6 from '../../assets/testimonialImage/client6.png'
+import Client7 from '../../assets/testimonialImage/client7.png'
+
 import AnimationFromBottom from '../../Animation/AnimationFromBottom/AnimationFromBottom';
 
 const testimonialsDetails = [
     {
         id: 1, testimonial: 'This product has changed my life for the better!',
-        name: 'John Doe',
-        designation: 'CEO',
-        company: 'TechCorp',
+        name: 'Ajay K.',
+        designation: 'Software Developer',
+        company: '',
         image: Client1,
     },
     {
         id: 2,
         testimonial: 'Excellent service and friendly staff.',
-        name: 'Jane Smith',
-        designation: 'Manager',
-        company: 'BizCo',
+        name: 'Anuradha K.',
+        designation: 'Founder of',
+        company: 'Ditvi Foundation',
         image: Client2,
     },
     {
         id: 3,
-        testimonial: 'A must-have for any professional.', name: 'Sam Wilson',
-        designation: 'Developer',
-        company: 'DevSolutions',
+        testimonial: 'A must-have for any professional.', 
+        name: 'Hemlata K.',
+        designation: 'Web Designer',
+        company: '',
         image: Client3,
     },
     {
         id: 4,
         testimonial: 'A must-have for any professional.',
-        name: 'Alice Johnson',
-        designation: 'Designer',
-        company: 'CreativeWorks',
+        name: 'Abhishek',
+        designation: 'Web Developer',
+        company: '',
         image: Client4,
     },
     {
         id: 5,
-        testimonial: 'Top-notch quality and support.',
-        name: 'Bob Brown',
-        designation: 'Engineer',
-        company: 'BuildIt',
+        testimonial: 'Top-notch quality, support and amazing skills.',
+        name: 'Kanchan K.',
+        designation: '',
+        company: 'Ditbi Foundation',
         image: Client5,
     },
     {
         id: 6,
         testimonial: 'Great experience from start to finish.',
-        name: 'Clara Adams',
-        designation: 'Marketer',
-        company: 'MarketMinds',
+        name: 'Indu K.',
+        designation: '',
+        company: 'Ditbi Foundation',
         image: Client6,
+    },
+    {
+        id: 7,
+        testimonial: 'Great experience from start to finish.',
+        name: 'Vishwas',
+        designation: 'Video Editor',
+        company: '',
+        image: Client7,
     },
 ];
 
