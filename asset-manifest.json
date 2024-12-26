@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/anksquare/static/css/main.f11b1b3e.css",
-    "main.js": "/anksquare/static/js/main.b6957260.js",
-    "static/js/453.5e9f60d5.chunk.js": "/anksquare/static/js/453.5e9f60d5.chunk.js",
+    "main.css": "/anksquare/static/css/main.21da22e5.css",
+    "main.js": "/anksquare/static/js/main.1cdec744.js",
+    "static/js/453.61de8a3d.chunk.js": "/anksquare/static/js/453.61de8a3d.chunk.js",
+    "static/media/client5.png": "/anksquare/static/media/client5.6fd4efdacd35756ca31d.png",
     "static/media/logo.svg": "/anksquare/static/media/logo.2ff77b8437b5d99c2f6f09f39b6f76c1.svg",
+    "static/media/client6.png": "/anksquare/static/media/client6.e2d8fa6c5d8f4a6f462f.png",
+    "static/media/client3.png": "/anksquare/static/media/client3.9626dcd5a85f2cf4cebe.png",
+    "static/media/client1.png": "/anksquare/static/media/client1.3c74b0c15e84af8ad94c.png",
+    "static/media/client4.png": "/anksquare/static/media/client4.7bafaff1494a70f0ead1.png",
+    "static/media/client2.png": "/anksquare/static/media/client2.a272bea2345108799168.png",
     "static/media/flipkart-logo.svg": "/anksquare/static/media/flipkart-logo.a6e902bc45ccd8470346fa2e5bb67535.svg",
     "static/media/youtubeads-logo.svg": "/anksquare/static/media/youtubeads-logo.e38f4988aad4e76d50b308eae0dd8233.svg",
     "static/media/amazon-icon.svg": "/anksquare/static/media/amazon-icon.7cbd16a15b3cc89760194ee1ac10df34.svg",
@@ -16,14 +22,20 @@
     "static/media/nykaa-logo.svg": "/anksquare/static/media/nykaa-logo.9a909ac2146cd8f221aa8f663f57dd6b.svg",
     "static/media/blinkitads-logo.svg": "/anksquare/static/media/blinkitads-logo.78bdae07f2cee3e3f45bcdf122978a1d.svg",
     "static/media/whatsapp.svg": "/anksquare/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
+    "static/media/slick.svg": "/anksquare/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/anksquare/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/anksquare/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/anksquare/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/ios-logo.svg": "/anksquare/static/media/ios-logo.c5d657a5aeaa13fe262fed12f4b22eed.svg",
     "static/media/ajio-logo.svg": "/anksquare/static/media/ajio-logo.7ef43ce2cbe23377ee482a5643d2ce16.svg",
+    "static/media/android-logo.svg": "/anksquare/static/media/android-logo.a85f27d974cc60729f2b4c64f9704d34.svg",
     "index.html": "/anksquare/index.html",
-    "main.f11b1b3e.css.map": "/anksquare/static/css/main.f11b1b3e.css.map",
-    "main.b6957260.js.map": "/anksquare/static/js/main.b6957260.js.map",
-    "453.5e9f60d5.chunk.js.map": "/anksquare/static/js/453.5e9f60d5.chunk.js.map"
+    "main.21da22e5.css.map": "/anksquare/static/css/main.21da22e5.css.map",
+    "main.1cdec744.js.map": "/anksquare/static/js/main.1cdec744.js.map",
+    "453.61de8a3d.chunk.js.map": "/anksquare/static/js/453.61de8a3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f11b1b3e.css",
-    "static/js/main.b6957260.js"
+    "static/css/main.21da22e5.css",
+    "static/js/main.1cdec744.js"
   ]
 }
