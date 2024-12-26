@@ -7,10 +7,9 @@
 }
 
 .grid-img-logo {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 3px solid var(--Green);
+  /* border-bottom: 3px solid var(--Green); */
   padding: 2rem;
+  padding-bottom: 0;
 }
 
 .logo-container {
@@ -20,3 +19,10 @@
   /* Example aspect ratio */
 }
 
+.service-card-list {
+  border-top: 2px solid var(--Green);;
+}
+
+.service-card-list ul{
+  text-align: left;
+}

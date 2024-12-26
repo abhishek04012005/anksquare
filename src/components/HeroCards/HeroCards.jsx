@@ -13,7 +13,7 @@ const HeroCards = ({cardData}) => {
                 >
 
                     {cardData.map((card) => (
-                        <Grid  size={{ xs: 12, md: 3 }}>
+                        <Grid  size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
                             <div className="grid-img-svg">
                                 <div style={{ borderBottom: '3px solid var(--Green)' }}>
                                     {card.svg}

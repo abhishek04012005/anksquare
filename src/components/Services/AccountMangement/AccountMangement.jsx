@@ -20,14 +20,69 @@ import NykaaSVG from '../../../assets/tech/nykaa-logo.svg'
 const AccountMangement = () => {
 
     const AccountMangementCardData = [
-        { id: 1, title: 'Amazon', imageLogo: AmazonSVG},
-        { id: 2, title: 'Flipkart', imageLogo: FlipkartSVG },
-        { id: 3, title: 'Meesho', imageLogo: MeeshoIcon },
-        { id: 4, title: 'Jiomart', imageLogo: JioMartSVG },
-        { id: 5, title: 'Ajio', imageLogo: AjioSVG },
-        { id: 6, title: 'Myntra', imageLogo: MyntraSVG },
-        { id: 7, title: 'Nykaa', imageLogo: NykaaSVG },
-        { id: 8, title: 'Blinkit', imageLogo: BlinkItSVG },
+        {
+            id: 1, title: 'Amazon',
+            imageLogo: AmazonSVG,
+            list1: 'Amazon Account Management',
+            list2: 'Amazon A+ Design',
+            list3: 'Amazon',
+        },
+        {
+            id: 2,
+            title: 'Flipkart',
+            imageLogo: FlipkartSVG,
+            list1: 'Flipkart Account Management',
+            list2: 'Flipkart FBF Registration',
+            list3: 'Amazon',
+        },
+        {
+            id: 3,
+            title: 'Meesho',
+            imageLogo: MeeshoIcon,
+            list1: 'Meesho Account Management',
+            list2: 'Meesho Product Promotions',
+            list3: 'Amazon',
+        },
+        {
+            id: 4,
+            title: 'JioMart',
+            imageLogo: JioMartSVG,
+            list1: 'JioMart Account Management',
+            list2: 'JioMart Product Promotions',
+            list3: 'Amazon',
+        },
+        {
+            id: 5,
+            title: 'Ajio',
+            imageLogo: AjioSVG,
+            list1: 'Ajio Account Management',
+            list2: 'Amazon',
+            list3: 'Amazon',
+        },
+        {
+            id: 6,
+            title: 'Myntra',
+            imageLogo: MyntraSVG,
+            list1: 'Myntra Account Management',
+            list2: 'Myntra Product SEO',
+            list3: 'Amazon',
+        },
+        {
+            id: 7,
+            title: 'Nykaa',
+            imageLogo: NykaaSVG,
+            list1: 'Nykaa Account Management',
+            list2: 'Amazon',
+            list3: 'Amazon',
+        },
+        {
+            id: 8,
+            title: 'Blinkit',
+            imageLogo: BlinkItSVG,
+            list1: 'Blinkit Account Management',
+            list2: 'Amazon',
+            list3: 'Amazon',
+        },
 
 
     ];
