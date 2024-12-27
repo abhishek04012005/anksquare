@@ -77,10 +77,13 @@
     position: absolute !important;
     top: 50% !important;
     box-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 6px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.2 ease-in-out
 }
 
 .custom-arrow:hover {
-    background-color: var(--Blue) !important;
+    /* background-color: var(--Blue) !important; */
+    background-color: white !important;
+    color: var(--Green) !important;
 }
 
 .slick-prev {
