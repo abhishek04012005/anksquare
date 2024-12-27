@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/anksquare/static/css/main.21da22e5.css",
+    "main.css": "/anksquare/static/css/main.62e7e75a.css",
     "main.js": "/anksquare/static/js/main.272c7f4a.js",
     "static/js/453.61de8a3d.chunk.js": "/anksquare/static/js/453.61de8a3d.chunk.js",
     "static/media/client5.png": "/anksquare/static/media/client5.6fd4efdacd35756ca31d.png",
@@ -31,12 +31,12 @@
     "static/media/ajio-logo.svg": "/anksquare/static/media/ajio-logo.7ef43ce2cbe23377ee482a5643d2ce16.svg",
     "static/media/android-logo.svg": "/anksquare/static/media/android-logo.a85f27d974cc60729f2b4c64f9704d34.svg",
     "index.html": "/anksquare/index.html",
-    "main.21da22e5.css.map": "/anksquare/static/css/main.21da22e5.css.map",
+    "main.62e7e75a.css.map": "/anksquare/static/css/main.62e7e75a.css.map",
     "main.272c7f4a.js.map": "/anksquare/static/js/main.272c7f4a.js.map",
     "453.61de8a3d.chunk.js.map": "/anksquare/static/js/453.61de8a3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21da22e5.css",
+    "static/css/main.62e7e75a.css",
     "static/js/main.272c7f4a.js"
   ]
 }
