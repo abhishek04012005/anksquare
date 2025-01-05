@@ -93,7 +93,7 @@ const Footer = () => {
                     </Grid>
                     <div className="footer-social-links">
                         <a
-                            href="https://wa.me/919263767441?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
+                            href="https://wa.me/919939337638?text=Hello,%20*Ank Square Pvt. Ltd.*%0AI%20wish%20to%20connect%20with%20you."
                             target="_blank"
                             rel="noopener noreferrer"
                         >
