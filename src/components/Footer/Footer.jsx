@@ -99,22 +99,22 @@ const Footer = () => {
                         >
                             <WhatsApp />
                         </a>
-                        <a href="mailto:theabhishekchoudhary0401@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:info@anksquare.com" target="_blank" rel="noopener noreferrer">
                             <EmailOutlined />
                         </a>
-                        <a href="https://www.instagram.com/theabhishekchoudhary0401/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/anksquare?igsh=MTMwZG9ybnQzOW44aQ==" target="_blank" rel="noopener noreferrer">
                             <Instagram />
                         </a>
-                        <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61568533385928" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                             <Facebook />
                         </a>
-                        <a href="https://www.youtube.com/@theabhishekchoudhary0401" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
                             <YouTube />
                         </a>
-                        <a href="https://www.linkedin.com/in/abhishek-choudhary-80b753232/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                             <LinkedIn />
                         </a>
-                        <a href="https://x.com/i/flow/login?redirect_after_login=%2F02mr_abhishek" target="_blank" rel="noopener noreferrer">
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
                             <X />
                         </a>
                     </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     const handleClickWhatsapp = () => {
-        window.open('https://api.whatsapp.com/send?phone=919939337638', '_blank');
+        window.open('https://wa.me/919939337638?text=Hello,%20*Ank Square Pvt. Ltd.*%0AI%20wish%20to%20connect%20with%20you.', '_blank');
     };
 
     const handleLinkClick = (link) => {
@@ -142,7 +142,7 @@ const Navbar = () => {
                 </div>
             </div>
             <a
-                href="https://wa.me/919939337638?text=Hello,%20*Mukesh*%0AI%20wish%20to%20connect%20with%20you." // Replace 'your-number' with the actual number in international format without "+" sign
+                href="https://wa.me/919939337638?text=Hello,%20*Ank Square Pvt. Ltd.*%0AI%20wish%20to%20connect%20with%20you." // Replace 'your-number' with the actual number in international format without "+" sign
                 className="whatsapp-button"
                 target="_blank"
                 rel="noopener noreferrer"
