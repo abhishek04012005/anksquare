@@ -1,140 +1,135 @@
 import React, { useEffect } from "react";
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import { Link, useLocation } from 'react-router-dom';
 import { EmailOutlined, Facebook, Instagram, LinkedIn, WhatsApp, X, YouTube } from '@mui/icons-material';
 import Container from "../../Container/Container";
+import { Link as ScrollLink } from 'react-scroll';
 import './Footer.css'
-import Logo from '../../logo.svg'
+import Logo from '../../logo.svg';
 
 const Footer = () => {
-
     const location = useLocation();
 
     useEffect(() => {
-        // Scroll to top whenever the route changes
         window.scrollTo(0, 0);
     }, [location]);
+
     return (
-        <>
-            <div className="footer">
-                <Container>
-                    <div className="footer-item">
-                        <Grid container
-                            spacing={{ xs: 0, md: 2, lg: 2 }}
-                        >
-
-                            <Grid
-
-                                size={{ xs: 12, md: 3 }}
-                            >
-
-                                <div className="footer-links">
-                                    <Link className="router-link" to='/anksquare'>Home</Link>
-                                </div>
-
-                            </Grid>
-
-                            <Grid
-
-                                size={{ xs: 12, md: 3 }}
-                            >
-
-                                <div className="footer-links">
-                                    <Link className='footer-link-heading'> <strong>Account Management</strong></Link>
-                                    <Link className="router-link" to='/anksquare/amazon-account-management'>Amazon Account Management</Link>
-                                    <Link className="router-link" to='/anksquare/flipkart-account-management'>Flipkart Account Management</Link>
-                                    <Link className="router-link" to='/anksquare/etsy-account-management'>Etsy Account Management</Link>
-                                </div>
-
-                            </Grid>
-
-                            <Grid
-
-                                size={{ xs: 12, md: 3 }}
-                            >
-
-                                <div className="footer-links">
-                                    <Link className='footer-link-heading'> <strong>Services</strong></Link>
-                                    <Link className="router-link" to='/anksquare/social-media'>Digital Marketing</Link>
-                                    <Link className="router-link" to='/anksquare/web-development'>Website Development</Link>
-                                    <Link className="router-link" to='/anksquare/app-development'>App Development</Link>
-                                </div>
-
-                            </Grid>
-
-                            <Grid
-
-                                size={{ xs: 12, md: 3 }}
-                            >
-
-                                <div className="footer-links">
-                                    <a href="/"><img src={Logo} alt="" /></a>
-                                    {/* <Link className="router-link" to='/'>CIN:- U72900MH2021PTC363593</Link> */}
-                                    <p style={{ textAlign: 'center', color: 'white', marginTop: -10}}> <a href="https://www.anksquare.com" target="_blank" rel="noreferrer" style={{ color: 'white' }}>www.AnkSquare.com</a>  </p>
-
-                                </div>
-                            </Grid>
-
-
-
+        <div className="footer">
+            <Container>
+                <div className="footer-item">
+                    <Grid container spacing={{ xs: 0, md: 2, lg: 2 }}>
+                        <Grid item xs={12} md={3}>
+                            <div className="footer-links">
+                                <Link className="router-link" to='/anksquare'>Home</Link>
+                                <Link className="router-link" to='/admin'>Admin</Link>
+                            </div>
                         </Grid>
-
-
-                        <div className="footer-social-links">
-                            <a
-                                href="https://wa.me/919263767441?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <WhatsApp />
-                            </a>
-
-                            <a
-                                href="mailto:theabhishekchoudhary0401@gmail.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><EmailOutlined /></a>
-
-                            <a
-                                href="https://www.instagram.com/theabhishekchoudhary0401/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><Instagram /></a>
-
-                            <a
-                                href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61568533385928"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><Facebook /></a>
-
-                            <a
-                                href="https://www.youtube.com/@theabhishekchoudhary0401"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><YouTube /></a>
-
-                            <a
-                                href="https://www.linkedin.com/in/abhishek-choudhary-80b753232/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><LinkedIn /></a>
-
-
-                            <a
-                                href="https://x.com/i/flow/login?redirect_after_login=%2F02mr_abhishek"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><X /></a>
-                        </div>
-
-
-                        <p style={{ textAlign: 'center', color: 'white' }}>Copyright © {new Date().getFullYear()} Ank Square Pvt. Ltd. </p>
-                        <p style={{ textAlign: 'center', color: 'white' }}>Powered by <a href="https://www.abhishekchoudhary.co.in" target="_blank" rel="noreferrer" style={{ color: 'white' }}>www.AbhishekChoudhary.co.in</a>  </p>
+                        <Grid item xs={12} md={3}>
+                            <div className="footer-links">
+                                <ScrollLink
+                                    className='footer-link-heading'
+                                    to="account-management"
+                                    smooth={true}
+                                    duration={800}
+                                >
+                                    Account Management
+                                </ScrollLink>
+                                <div className="footer-link-items">
+                                    <p className='footer-link-item'>Amazon</p>
+                                    <p className='footer-link-item'>Flipkart</p>
+                                    <p className='footer-link-item'>Meesho</p>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={12} md={3}>
+                            <div className="footer-links">
+                                <ScrollLink
+                                    className='footer-link-heading-active'
+                                    to="digital-marketing"
+                                    smooth={true}
+                                    duration={800}
+                                >
+                                    Services
+                                </ScrollLink>
+                                <div className="footer-link-items-active">
+                                    <ScrollLink
+                                        className='footer-link-item-active'
+                                        to="digital-marketing"
+                                        smooth={true}
+                                        duration={800}
+                                    >
+                                        Digital Marketing
+                                    </ScrollLink>
+                                    <ScrollLink
+                                        className='footer-link-item-active'
+                                        to="web-development"
+                                        smooth={true}
+                                        duration={800}
+                                    >
+                                        Website Development
+                                    </ScrollLink>
+                                    <ScrollLink
+                                        className='footer-link-item-active'
+                                        to="app-development"
+                                        smooth={true}
+                                        duration={800}
+                                    >
+                                        App Development
+                                    </ScrollLink>
+                                </div>
+                            </div>
+                        </Grid>
+                        <Grid item xs={12} md={3}>
+                            <div className="footer-links">
+                                <a href="/"><img src={Logo} alt="AnkSquare Logo" /></a>
+                                <p style={{ textAlign: 'center', color: 'white', marginTop: -10 }}>
+                                    <a href="https://www.anksquare.com" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+                                        www.AnkSquare.com
+                                    </a>
+                                </p>
+                            </div>
+                        </Grid>
+                    </Grid>
+                    <div className="footer-social-links">
+                        <a
+                            href="https://wa.me/919263767441?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <WhatsApp />
+                        </a>
+                        <a href="mailto:theabhishekchoudhary0401@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <EmailOutlined />
+                        </a>
+                        <a href="https://www.instagram.com/theabhishekchoudhary0401/" target="_blank" rel="noopener noreferrer">
+                            <Instagram />
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61568533385928" target="_blank" rel="noopener noreferrer">
+                            <Facebook />
+                        </a>
+                        <a href="https://www.youtube.com/@theabhishekchoudhary0401" target="_blank" rel="noopener noreferrer">
+                            <YouTube />
+                        </a>
+                        <a href="https://www.linkedin.com/in/abhishek-choudhary-80b753232/" target="_blank" rel="noopener noreferrer">
+                            <LinkedIn />
+                        </a>
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2F02mr_abhishek" target="_blank" rel="noopener noreferrer">
+                            <X />
+                        </a>
                     </div>
-                </Container >
-            </div >
-        </>
-    )
-}
+                    <p style={{ textAlign: 'center', color: 'white' }}>
+                        Copyright © {new Date().getFullYear()} Ank Square Pvt. Ltd.
+                    </p>
+                    <p style={{ textAlign: 'center', color: 'white' }}>
+                        Powered by:- <a href="https://www.abhishekchoudhary.co.in" target="_blank" rel="noreferrer" style={{ color: 'white' }}>
+                            www.AbhishekChoudhary.co.in
+                        </a>
+                    </p>
+                </div>
+            </Container>
+        </div>
+    );
+};
 
-export default Footer
+export default Footer;

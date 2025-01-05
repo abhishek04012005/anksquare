@@ -12,9 +12,6 @@ function MainService () {
         <>
             <div >
                 <AccountMangement />
-                {/* <EcommerceSpecialist /> */}
-                {/* <FlipkartAccountManagement/> */}
-                {/* <EtsyAccountMangement/> */}
                 <SocialMedia />
                 <WebDevelopment />
                 <AppDevelopment />

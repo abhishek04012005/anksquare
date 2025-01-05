@@ -2,7 +2,7 @@
   border: 3px solid var(--Green);
   border-radius: 30px;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+
   /* padding-bottom: 2rem; */
 }
 
@@ -20,9 +20,22 @@
 }
 
 .service-card-list {
-  border-top: 2px solid var(--Green);;
+  border-top: 2px solid var(--Green);
+  ;
 }
 
-.service-card-list ul{
+.service-card-list ul {
   text-align: left;
 }
+
+.service-card-list ul li {
+  font-size: 0.9rem;
+}
+
+.service-card-btn {
+  margin: 0 1rem 1rem 1rem;
+}
+
+/* .servicecard-svgImage {
+ 
+} */

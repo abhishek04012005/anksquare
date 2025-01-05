@@ -5,9 +5,10 @@ import ServiceCard from '../ServiceCard/ServiceCard';
 import AppDevelopmentSVG from '../../../assets/SVG/AppDevelopmentSVG/AppDevelopmentSVG';
 
 
-import FlipkartSVG from '../../../assets/tech/flipkart-logo.svg'
 import AndroidSVG from '../../../assets/app_development/android-logo.svg'
 import IosSVG from '../../../assets/app_development/ios-logo.svg'
+import NativeSVG from '../../../assets/app_development/native.svg'
+import HybridSVG from '../../../assets/app_development/hybrid.svg'
 
 
 const AppDevelopment = () => {
@@ -16,50 +17,58 @@ const AppDevelopment = () => {
             id: 1,
             title: 'Android App Development',
             imageLogo: AndroidSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list1: 'User Friendly',
+            list2: 'Secure & Fast',
+            list3: 'High Performance',
+            serviceCardUrl: '#',
+
         },
         {
             id: 2,
             title: 'IOS App Development',
             imageLogo: IosSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list1: 'Secure & Fast',
+            list2: 'Compatiable',
+            list3: 'Seamless Experience',
+            serviceCardUrl: '#',
+
         },
         {
             id: 3,
             title: 'Native App Development',
-            imageLogo: FlipkartSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            imageLogo: NativeSVG,
+            list1: 'Highly Customizable',
+            list2: 'User Friendly',
+            list3: 'Secure & Fast',
+            serviceCardUrl: '#',
+
         },
         {
             id: 4,
             title: 'Hybrid App Development',
-            imageLogo: FlipkartSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            imageLogo: HybridSVG,
+            list1: 'Support Multiple Platform',
+            list2: 'Build Once Run Forever',
+            list3: 'Customizable',
+            serviceCardUrl: '#',
+
         },
     ];
     return (
         <>
-            <ServiceBox
-                serviceTitle="app development"
-                photo={<AppDevelopmentSVG />}
-                para1="App development is essential for businesses looking to engage customers and streamline operations through custom solutions. Our app development services are tailored to create innovative and user-friendly applications that meet your specific needs. We start with a thorough understanding of your business objectives and target audience, ensuring the app’s design and functionality align perfectly with your goals."
-                para2="We specialize in developing cross-platform applications that provide a consistent user experience across both iOS and Android devices. This ensures that your app reaches a broader audience and delivers a seamless experience regardless of the device used. Our focus on user-centric design means we prioritize intuitive navigation, attractive interfaces, and fast performance to enhance user engagement and satisfaction. Security is a key aspect of our development process. We implement robust security measures to protect your app and user data from potential threats
-                ."
-                reverse="true"
-            />
+            <div id='app-development'>
+                <ServiceBox
+                    serviceTitle="app development"
+                    photo={<AppDevelopmentSVG />}
+                    para1="We provide end-to-end mobile app development services that turn your ideas into high-performance, user-friendly applications. From initial ideation and concept design to seamless integration, delivery, and ongoing support, we lead the entire app development process with expertise and precision. Whether you’re looking to create a consumer-oriented app or a transformative enterprise-class solution, our team has the skills and experience to bring your vision to life."
+                    para2="We specialize in designing intuitive interfaces and developing robust features that meet your business goals and deliver exceptional user experiences. Our commitment doesn’t end at launch. We provide continuous support to ensure your app remains functional, scalable, and up-to-date, adapting to evolving market trends and user needs. Partner with us to create mobile apps that drive engagement, enhance productivity, and provide lasting value to your users. By leveraging the latest technologies and industry best practices, we ensure that your app stands out in a competitive market. Let us help you transform your vision into a reality that delights and engages your users."
+                    reverse="true"
+                />
 
-            <Container>
-                <ServiceCard cardData={AppDevelopmentCardData} />
-            </Container>
-
+                <Container>
+                    <ServiceCard cardData={AppDevelopmentCardData} />
+                </Container>
+            </div>
         </>
     )
 }

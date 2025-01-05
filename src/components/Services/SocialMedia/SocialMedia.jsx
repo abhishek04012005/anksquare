@@ -18,50 +18,53 @@ const SocialMedia = () => {
             id: 1,
             title: 'Google Ads',
             imageLogo: GoogleAdsSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list1: 'Create Google Ads',
+            list2: 'Optimize Google Ads',
+            list3: 'Run Campaign',
+            serviceCardUrl: '#',
         },
         {
             id: 2,
             title: 'Instagram Ads',
             imageLogo: InstagramAdsSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list1: 'Create Instagram Ads',
+            list2: 'Optimize Instagram Ads',
+            list3: 'Product & Service Promotion',
+            serviceCardUrl: '#',
         },
         {
             id: 3,
             title: 'Facebook Ads',
             imageLogo: FacebookAdsSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list1: 'Create Facebook Ads',
+            list2: 'Optimize Facebook Ads',
+            list3: 'Product & Service Promotion',
+            serviceCardUrl: '#',
         },
         {
             id: 4,
             title: 'Youtube Ads',
             imageLogo: YoutubeAdsSVG,
-            list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list1: 'Create Youtube Ads',
+            list2: 'Optimize Youtube Ads',
+            list3: 'Product & Service Promotion',
+            serviceCardUrl: '#',
         },
     ];
     return (
         <>
-            <ServiceBox
-                serviceTitle="digital marketing"
-                photo={<SocialMediaSVG />} //Change to digital marketing ads
-                para1="Digital marketing, especially through advertisements, is pivotal in shaping the success of your business online. Our comprehensive digital marketing services are designed to place your brand in front of your target audience effectively. By leveraging various platforms such as Google Ads, social media, and display networks, we ensure your ads reach the right people at the right time. Our team crafts compelling ad copies that resonate with your audience, driving clicks and conversions."
-                para2="We perform in-depth keyword research to identify the terms your potential customers are searching for, allowing us to tailor your ads for maximum visibility and relevance. Additionally, our services include designing eye-catching visuals and engaging content that capture attention and encourage interaction. We continuously monitor and optimize your ad campaigns, adjusting bids, keywords, and targeting to improve performance and ROI."
-            // reverse="true"
-            // para={SocialMediaCardData[0].title}
-            />
+            <div id='digital-marketing'>
+                <ServiceBox
+                    serviceTitle="digital marketing"
+                    photo={<SocialMediaSVG />}
+                    para1="We specialize in helping businesses elevate their online presence and engage their audience through expert social media marketing services. In today's fast-paced digital world, building a strong social media presence is crucial to staying competitive, and our team is dedicated to crafting strategies that drive meaningful engagement and brand awareness. We take a personalized approach to each campaign, carefully analyzing your target audience, brand goals, and market trends."
+                    para2="Our strategies are designed to increase visibility, foster customer relationships, and ultimately boost your bottom line. Whether you’re looking to grow your followers, enhance your brand’s voice, or run high-impact ad campaigns, we have the expertise to deliver exceptional results. Let us help you connect with your audience in a more authentic way, turning your social media platforms into powerful tools for business growth."
+                />
 
-            <Container>
-                <ServiceCard cardData={SocialMediaCardData} />
-            </Container>
-
+                <Container>
+                    <ServiceCard cardData={SocialMediaCardData} />
+                </Container>
+            </div>
         </>
     )
 }

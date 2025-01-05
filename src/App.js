@@ -7,9 +7,10 @@ import ContactUs from './components/ContactUs/ContactUs';
 import SocialMedia from './components/Services/SocialMedia/SocialMedia';
 import WebDevelopment from './components/Services/WebDevelopment/WebDevelopment';
 import AppDevelopment from './components/Services/AppDevelopment/AppDevelopment';
-import EcommerceSpecialist from './components/Services/EcommerceSpecialist/EcommerceSpecialist';
-import FlipkartAccountManagement from './components/Services/FlipkartAccountManagement/FlipkartAccountManagement';
-import EtsyAccountMangement from './components/Services/EtsyAccountMangement/EtsyAccountMangement';
+import AccountManagementDetails from './components/Services/AccountMangement/AccountManagementDetails/AccountManagementDetails';
+import SocialMediaDetails from './components/Services/SocialMedia/SocialMediaDetails/SocialMediaDetails';
+import WebDevelopmentService from './components/Services/WebDevelopment/WebDevelopmentService/WebDevelopmentService';
+import AppDevelopmentService from './components/Services/AppDevelopment/AppDevelopmentService/AppDevelopmentService';
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/anksquare" element={<Main />} />
+          <Route path="/anksquare/account-management/:serviceType" element={<AccountManagementDetails />} />
+          <Route path="/anksquare/social-media-ads/:serviceType" element={<SocialMediaDetails />} />
+          <Route path="/anksquare/web-development/:serviceType" element={<WebDevelopmentService />} />
+          <Route path="/anksquare/app-development/:serviceType" element={<AppDevelopmentService />} />
           <Route path="/anksquare/social-media" element={<SocialMedia />} />
           <Route path="/anksquare/web-development" element={<WebDevelopment />} />
           <Route path="/anksquare/app-development" element={<AppDevelopment />} />
-          <Route path="/anksquare/amazon-account-management" element={<EcommerceSpecialist/>} />
-          <Route path="/anksquare/flipkart-account-management" element={<FlipkartAccountManagement/>} />
-          <Route path="/anksquare/etsy-account-management" element={<EtsyAccountMangement/>} />
         </Routes>
         <ContactUs />
         <Footer />

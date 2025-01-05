@@ -24,8 +24,9 @@ const AccountMangement = () => {
             id: 1, title: 'Amazon',
             imageLogo: AmazonSVG,
             list1: 'Amazon Account Management',
-            list2: 'Amazon A+ Design',
-            list3: 'Amazon',
+            list2: 'Amazon A+ Listing',
+            list3: 'Amazon Store',
+            serviceCardUrl: '/anksquare/account-management/amazon',
         },
         {
             id: 2,
@@ -33,55 +34,62 @@ const AccountMangement = () => {
             imageLogo: FlipkartSVG,
             list1: 'Flipkart Account Management',
             list2: 'Flipkart FBF Registration',
-            list3: 'Amazon',
+            list3: 'Flipkart Ads Management',
+            serviceCardUrl: '#',
         },
         {
             id: 3,
             title: 'Meesho',
             imageLogo: MeeshoIcon,
             list1: 'Meesho Account Management',
-            list2: 'Meesho Product Promotions',
-            list3: 'Amazon',
+            list2: 'Meesho Catalogue Service',
+            list3: 'Meesho Ads Management',
+            serviceCardUrl: '#',
         },
         {
             id: 4,
             title: 'JioMart',
             imageLogo: JioMartSVG,
             list1: 'JioMart Account Management',
-            list2: 'JioMart Product Promotions',
-            list3: 'Amazon',
+            list2: 'JioMart Catalogue Service',
+            list3: 'JioMart Product Promotion',
+            serviceCardUrl: '#',
         },
         {
             id: 5,
             title: 'Ajio',
             imageLogo: AjioSVG,
             list1: 'Ajio Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list2: 'Ajio Catalogue Service',
+            list3: 'Ajio Onboarding Service',
+            serviceCardUrl: '#',
         },
         {
             id: 6,
             title: 'Myntra',
             imageLogo: MyntraSVG,
             list1: 'Myntra Account Management',
-            list2: 'Myntra Product SEO',
-            list3: 'Amazon',
+            list2: 'Myntra Product Promotion',
+            list3: 'Myntra Onboarding Service',
+            serviceCardUrl: '#',
         },
         {
             id: 7,
             title: 'Nykaa',
             imageLogo: NykaaSVG,
             list1: 'Nykaa Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list2: 'Nykaa Product Promotion',
+            list3: 'Nykaa Onboarding Service',
+            serviceCardUrl: '#',
         },
         {
             id: 8,
             title: 'Blinkit',
             imageLogo: BlinkItSVG,
             list1: 'Blinkit Account Management',
-            list2: 'Amazon',
-            list3: 'Amazon',
+            list2: 'Blinkit Product Promotion',
+            list3: 'Blinkit Onboarding Service',
+            serviceCardUrl: '#',
         },
 
 
@@ -91,10 +99,10 @@ const AccountMangement = () => {
             <div className="account-management" id='account-management'>
 
                 <ServiceBox
-                    serviceTitle="account mangement"
+                    serviceTitle="account management"
                     photo={<AccountManagerSVG />}
-                    para1="E-commerce account management plays a crucial role in the success of online businesses. Our services focus on streamlining and optimizing every aspect of your e-commerce operations to ensure a seamless shopping experience for your customers. This includes managing product listings to enhance their visibility and appeal, ensuring that product descriptions, images, and prices are accurate and competitive. We also handle inventory management, keeping track of stock levels and reordering products when necessary to prevent stockouts."
-                    para2="In addition, we monitor and analyze sales performance, identifying trends and opportunities for growth. Our team is adept at managing customer service, addressing inquiries and resolving issues promptly to maintain high customer satisfaction levels. We also implement promotional strategies and discounts to drive sales and attract new customers. Through careful analysis of customer behavior and feedback, we continuously improve the shopping experience, making it more intuitive and engaging."
+                    para1="At Ank Square Pvt. Ltd., we are specialists in accelerating your sales on leading eCommerce platforms such as Amazon, Flipkart, Meesho, and other major marketplaces. With a true partnership approach, we work closely with your business to help you achieve exceptional growth in product sales while ensuring you remain in complete control of your brand and pricing—ultimately driving greater profits."
+                    para2="Our expert team conducts comprehensive reviews of your accounts, identifying key areas for optimization and guiding you through every step of the process. Whether you're looking to enhance your visibility, streamline operations, or improve your product listings, we are here to provide the insights and strategies that lead to tangible results. With years of experience and a proven track record, Ank Square Pvt. Ltd. is your trusted partner for navigating the complexities of online marketplaces and unlocking your full sales potential. Let us take your business to the next level with tailored solutions that deliver measurable success."
                     reverse="true"
                 />
                 <Container>

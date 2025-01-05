@@ -82,11 +82,11 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    to="service"
-                                    onClick={() => handleLinkClick('#service')}
+                                    to="digital-marketing"
+                                    onClick={() => handleLinkClick('#digital-marketing')}
                                     smooth={true}
                                     duration={800}
-                                    className={activeLink === '#service' ? 'active' : 'nav-link'}
+                                    className={activeLink === '#digital-marketing' ? 'active' : 'nav-link'}
                                 >
                                     SERVICES
                                 </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="service" className='nav-link' smooth={true}  duration={800}  onClick={() => handleLinkClick('#service')}>
+                                    <Link to="digital-marketing" className='nav-link' smooth={true}  duration={800}  onClick={() => handleLinkClick('#digital-marketing')}>
                                         SERVICES
                                     </Link>
                                 </li>

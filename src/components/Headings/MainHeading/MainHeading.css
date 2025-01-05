@@ -17,3 +17,11 @@
     font-size: 2.7rem;
     margin-bottom: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .heading h1 {
+        font-size: 1.8rem;
+    }
+    
+}

@@ -2,6 +2,9 @@ import React from 'react'
 import Grid from '@mui/material/Grid2';
 import './ServiceCard.css'
 import AnimationFromBottom from '../../../Animation/AnimationFromBottom/AnimationFromBottom';
+import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+
 
 
 const ServiceCard = ({ cardData }) => {
@@ -9,6 +12,8 @@ const ServiceCard = ({ cardData }) => {
 
     return (
         <>
+
+
             <div className="sevice-cards">
 
                 <Grid container spacing={5} mt={10}
@@ -20,8 +25,10 @@ const ServiceCard = ({ cardData }) => {
                             <AnimationFromBottom>
                                 <div className="service-grid-img-svg">
                                     <div className='grid-img-logo'>
-                                        {/* {card.svg} */}
-                                        <img className='logo-container' src={card.imageLogo} alt="" />
+                                        {card.isComponent ? <div className="servicecard-svgImage">
+                                            {card.svgImage}
+                                        </div> : <img className='logo-container' src={card.imageLogo} alt="" />}
+
                                     </div>
                                     <div><h3>{card.title}</h3></div>
 
@@ -31,8 +38,20 @@ const ServiceCard = ({ cardData }) => {
                                             <li>{card.list2}</li>
                                             <li>{card.list3}</li>
                                         </ul>
+
+
+
                                     </div>
 
+                                    <div className="service-card-btn btn">
+
+                                        {card.serviceCardUrl === '#' ? <Button variant="contained" fullWidth>Know More</Button> :
+                                            <Link to={card.serviceCardUrl}>
+                                                <Button variant="contained" fullWidth>Know More</Button>
+                                            </Link>
+                                        }
+
+                                    </div>
                                 </div>
                             </AnimationFromBottom>
                         </Grid>
