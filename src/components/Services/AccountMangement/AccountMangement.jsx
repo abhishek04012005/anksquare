@@ -26,7 +26,7 @@ const AccountMangement = () => {
             list1: 'Amazon Account Management',
             list2: 'Amazon A+ Listing',
             list3: 'Amazon Store',
-            serviceCardUrl: '/anksquare/account-management/amazon',
+            serviceCardUrl: '#',
         },
         {
             id: 2,
@@ -101,8 +101,8 @@ const AccountMangement = () => {
                 <ServiceBox
                     serviceTitle="account management"
                     photo={<AccountManagerSVG />}
-                    para1="At Ank Square Pvt. Ltd., we are specialists in accelerating your sales on leading eCommerce platforms such as Amazon, Flipkart, Meesho, and other major marketplaces. With a true partnership approach, we work closely with your business to help you achieve exceptional growth in product sales while ensuring you remain in complete control of your brand and pricing—ultimately driving greater profits."
-                    para2="Our expert team conducts comprehensive reviews of your accounts, identifying key areas for optimization and guiding you through every step of the process. Whether you're looking to enhance your visibility, streamline operations, or improve your product listings, we are here to provide the insights and strategies that lead to tangible results. With years of experience and a proven track record, Ank Square Pvt. Ltd. is your trusted partner for navigating the complexities of online marketplaces and unlocking your full sales potential. Let us take your business to the next level with tailored solutions that deliver measurable success."
+                    para1="We are specialists in accelerating your sales on leading eCommerce platforms such as Amazon, Flipkart, Meesho, and other major marketplaces. With a true partnership approach, we work closely with your business to help you achieve exceptional growth in product sales while ensuring you remain in complete control of your brand and pricing—ultimately driving greater profits."
+                    para2="Our expert team conducts comprehensive reviews of your accounts, identifying key areas for optimization and guiding you through every step of the process. Whether you're looking to enhance your visibility, streamline operations, or improve your product listings, we are here to provide the insights and strategies that lead to tangible results. With years of experience and a proven track record, your trusted partner for navigating the complexities of online marketplaces and unlocking your full sales potential. Let us take your business to the next level with tailored solutions that deliver measurable success."
                     reverse="true"
                 />
                 <Container>

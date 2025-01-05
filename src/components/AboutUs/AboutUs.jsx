@@ -31,7 +31,7 @@ const AboutUs = () => {
 
                                 <div className="main-work-box">
                                     <p className="paragraph-subheading">
-                                        Ank Square Pvt. Ltd. is a team of experts is dedicated to deliver tailored solutions designed to enhance your online presence, streamline operations, and boost customer engagement. Whether you are looking to optimize your eCommerce platform, increase visibility through strategic digital marketing campaigns, or develop a seamless and responsive website or app, we have the experience to help your business succeed.
+                                        Ank Square Pvt. Ltd. is a team of experts, dedicated to deliver tailored solutions designed to enhance your online presence, streamline operations, and boost customer engagement. Whether you are looking to optimize your eCommerce platform, increase visibility through strategic digital marketing campaigns, or develop a seamless and responsive website or app, we have the experience to help your business succeed.
                                     </p>
                                     <p className="paragraph-subheading">
                                         We are committed to empowering businesses with top-notch solutions that drive growth and maximize potential in the digital world. With years of experience in the industry, we specialize in providing comprehensive eCommerce account management services, digital marketing strategies, website development, and app development.

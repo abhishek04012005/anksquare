@@ -24,7 +24,7 @@ const ContactUs = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true); // Start loading
-        const scriptURL = "https://script.google.com/macros/s/AKfycbxDLHK97ZlT1F8SRet-dh00V90oQRuxdEYRA1OJtX5wYmkrs8UKDso_Fi8xQBLFMQyYdw/exec";
+        const scriptURL = "https://script.google.com/macros/s/AKfycbwfqJJvoQpJhHIZ7GxWW_0aPHtkM7Rpg6EYWaPi_Ojwa1d-hYS7kgDr9n8QFkLEgntQog/exec";
 
         const formDataToSend = new URLSearchParams();
         Object.keys(formData).forEach((key) => {

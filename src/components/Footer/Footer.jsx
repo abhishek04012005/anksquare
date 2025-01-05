@@ -21,7 +21,7 @@ const Footer = () => {
                     <Grid container spacing={{ xs: 0, md: 2, lg: 2 }}>
                         <Grid item xs={12} md={3}>
                             <div className="footer-links">
-                                <Link className="router-link" to='/anksquare'>Home</Link>
+                                <Link className="router-link" to='/'>Home</Link>
                                 <Link className="router-link" to='/admin'>Admin</Link>
                             </div>
                         </Grid>
