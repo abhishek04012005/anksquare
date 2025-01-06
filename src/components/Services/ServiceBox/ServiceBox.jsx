@@ -4,8 +4,7 @@ import Grid from '@mui/material/Grid2';
 import Container from '../../../Container/Container';
 import MainHeading from '../../Headings/MainHeading/MainHeading';
 import AnimationFromBottom from '../../../Animation/AnimationFromBottom/AnimationFromBottom';
-// import AnimationFromLeft from '../../../Animation/AnimationFromLeft/AnimationFromLeft';
-// import AnimationFromRight from '../../../Animation/AnimationFromRight/AnimationFromRight';
+
 
 
 const ServiceBox = ({ photo, para1, para2, serviceTitle, reverse = false }) => {
@@ -22,7 +21,7 @@ const ServiceBox = ({ photo, para1, para2, serviceTitle, reverse = false }) => {
 
 
 
-                    <Grid container spacing={{ xs: 5, md: 3, lg: 20 }}>
+                    <Grid container spacing={{ xs: 5, md: 4, lg: 8, xl: 20 }}>
 
 
                         <Grid

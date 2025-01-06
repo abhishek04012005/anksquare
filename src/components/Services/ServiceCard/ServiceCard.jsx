@@ -27,17 +27,20 @@ const ServiceCard = ({ cardData }) => {
                                     <div className='grid-img-logo'>
                                         {card.isComponent ? <div className="servicecard-svgImage">
                                             {card.svgImage}
-                                        </div> : <img className='logo-container' src={card.imageLogo} alt="" />}
+                                        </div> :
+                                            <img className='logo-container' src={card.imageLogo} alt="" />}
 
                                     </div>
                                     <div><h3>{card.title}</h3></div>
 
                                     <div className="service-card-list">
                                         <ul>
-                                            <li>{card.list1}</li>
-                                            <li>{card.list2}</li>
-                                            <li>{card.list3}</li>
+
+                                            {card.lists && card.lists.map((list, index) => (<li key={index}>{list}</li>))}
+
                                         </ul>
+
+
 
 
 

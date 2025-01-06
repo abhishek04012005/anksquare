@@ -1,6 +1,7 @@
 .service-box {
     padding-top: 2rem;
 }
+
 .service-text {
     background-color: var(--Green);
     padding: 15px;
@@ -11,4 +12,53 @@
 .service-text p {
     color: white;
     font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1300px) {
+    .service-text p {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1149px) {
+    .service-text p {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 970px) and (max-width: 999px) {
+    .service-text p {
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 969px) {
+    .service-text p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 899px) {
+    .service-text p {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 649px) {
+    .service-text p {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 549px) {
+    .service-text p {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .service-text p {
+        font-size: 1.04rem;
+    }
 }

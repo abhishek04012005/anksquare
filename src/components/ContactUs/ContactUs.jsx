@@ -56,7 +56,7 @@ const ContactUs = () => {
         <div className="contact-me" id='contact'>
             <Container>
 
-                <MainHeading title='Contact Me' />
+                <MainHeading title='Contact Us' />
                 <Grid container
                     direction={{ xs: 'column-reverse', md: 'row' }}
                     spacing={{ xs: 5, md: 3, lg: 20 }}

@@ -150,6 +150,9 @@ const Navbar = () => {
                 <img src={whatsAppIcon} alt="WhatsApp" />
 
             </a>
+
+
+            
         </div>
 
 

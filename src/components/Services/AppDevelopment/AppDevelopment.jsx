@@ -17,40 +17,32 @@ const AppDevelopment = () => {
             id: 1,
             title: 'Android App Development',
             imageLogo: AndroidSVG,
-            list1: 'User Friendly',
-            list2: 'Secure & Fast',
-            list3: 'High Performance',
             serviceCardUrl: '#',
+            lists: ["User Friendly", "Secure & Fast", "High Performance"],
 
         },
         {
             id: 2,
             title: 'IOS App Development',
             imageLogo: IosSVG,
-            list1: 'Secure & Fast',
-            list2: 'Compatiable',
-            list3: 'Seamless Experience',
             serviceCardUrl: '#',
+            lists: ["Secure & Fast", "Compatiable", "Seamless Experience"],
 
         },
         {
             id: 3,
             title: 'Native App Development',
             imageLogo: NativeSVG,
-            list1: 'Highly Customizable',
-            list2: 'User Friendly',
-            list3: 'Secure & Fast',
             serviceCardUrl: '#',
+            lists: ["Highly Customizable", "User Friendly", "Secure & Fast"],
 
         },
         {
             id: 4,
             title: 'Hybrid App Development',
             imageLogo: HybridSVG,
-            list1: 'Support Multiple Platform',
-            list2: 'Build Once Run Forever',
-            list3: 'Customizable',
             serviceCardUrl: '#',
+            lists: ["Support Multiple Platform", "Build Once Run Forever", "Customizable"],
 
         },
     ];
